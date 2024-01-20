@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cartItem.textContent = `${item.name} - $${item.price}  `;
 
             const removeBtn = document.createElement('button');
-            removeBtn.textContent = 'Remove';
+            removeBtn.textContent = ' Remove';
             removeBtn.addEventListener('click', () => deleteItem(item.id));
             cartItem.appendChild(removeBtn);
 
