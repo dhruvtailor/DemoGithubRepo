@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cart.forEach(item => {
             const cartItem = document.createElement('li');
             cartItem.className = 'cartItem';
-            cartItem.textContent = `${item.name} - $${item.price}`;
+            cartItem.textContent = `${item.name} - $${item.price}  `;
 
             const removeBtn = document.createElement('button');
             removeBtn.textContent = 'Remove';
