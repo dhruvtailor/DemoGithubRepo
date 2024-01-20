@@ -8,11 +8,19 @@ body {
     margin-bottom: 20px;
 }
 
-.product, .cartItem {
+.product {
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+}
+
+.cartItem {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
 }
 
 button {
